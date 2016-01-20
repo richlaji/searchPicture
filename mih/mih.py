@@ -110,7 +110,7 @@ if __name__ == '__main__':
 	print 'finish construct dict'
 	#searchCode
 	testCode = binaryCode[0]
-	finalList = searchBinCode(testCode,dic,95,1024,binaryCode)
+	finalList = searchBinCode(testCode,dic,70,1024,binaryCode)
 	#find the picture's path
 	nameEachFolder = ['danjianbao','shoutibao','xiekuabao']
 	numEachFolder = [5721,5855,5868]
