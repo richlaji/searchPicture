@@ -107,5 +107,5 @@ def getPrice(itemr):
 
 if __name__ == '__main__':
 	#count for the num of bao which has been download
-	getFromURL('http://list.jd.com/list.html?cat=1672,2575,5260&page=81&go=0&JL=6_0_0',70,'bao',80783,81)
+	getFromURL('http://list.jd.com/list.html?cat=1672%2C2575%2C2580&go=0',150,'bao',127135,1)#getFromURL(url,page,name,count,pageCount)
 	print 'Finish!!!'
